@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario con Arrays en JavaScript</title>
+</head>
+<body>
+
+    <h2>AMIGO INVISIBLE</h2>
+
+    <!-- Formulario para agregar un nuevo elemento -->
+    <form id="formulario">
+        <label for="nuevoElemento">Nombre</label>
+        <input type="text" id="nuevoElemento" required>
+        <button type="submit">Enviar</button>
+    </form>
+
+    <!-- Botón para eliminar el último elemento del array -->
+    <button onclick="eliminarElemento()">Eliminar Último Elemento</button>
+    <button onclick="generar()">Generar</button>
+    
+    <h1 id="participantes" ondblclick="eliminar()"></h1>
+    <!-- Párrafo para mostrar el array -->
+    <p id="resultado"></p>
+
+    <script>
+        // Definimos un array vacío
+        let miArray = [];
+
+        // Función para agregar un nuevo elemento al array desde el formulario
+        document.getElementById('formulario').addEventListener('submit', function(event) {
+            event.preventDefault(); // Evita que el formulario recargue la página
+            const nuevoElemento = document.getElementById('nuevoElemento').value;
+            if (nuevoElemento.trim() !== "") {
+                document.getElementById("participantes").innerHTML = "PARTICIPANTES";
+                miArray.push(nuevoElemento); // Agrega el nuevo elemento al array
+                document.getElementById('nuevoElemento').value = ""; // Limpia el campo de texto
+                mostrarArray();
+            } else {
+                alert("Por favor, introduce un valor válido.");
+            }
+        });
+
+        // Función para eliminar el último elemento del array
+        function eliminarElemento() {
+            if (miArray.length > 0) {
+                miArray.pop(); // Elimina el último elemento
+                mostrarArray();
+            } else {
+                alert("El array está vacío.");
+            }
+        }
+        function eliminar(){
+            let comfirma = confirm("Estas seguro de borrar?");
+            if(confirm){
+                miArray.splice();
+            }else{
+
+            }
+        }
+
+        // Función para mostrar el array en el párrafo
+        function mostrarArray() {
+            document.getElementById('resultado').textContent =  miArray.join(" ");
+        }
+        function generar(){
+            alert("La lista de participantes es: "+ mostrarArray())
+            if(miArray.length%2==0){ // Comprobamos que el array es par para poder hacer la funcion de generar parejas
+                for (let i = 0; i < miArray.length; i++) {
+                    if(i<(miArray.length/2)){ //si i es menor que la mitad de los numeros del array no seguira sorteando
+                        let numeroAleatorio =  Math.floor(Math.random() * i) + 1;
+                        let numeroAleatorio2 =  Math.floor(Math.random() * i) + 1; //Creamos dos numeros random y los juntamos
+                        alert(miArray[numeroAleatorio]+" -- "+miArray[numeroAleatorio2]);
+                    }else{
+                    }
+                }
+            }else{
+                alert("No son pares por lo que no se puede hacer")
+            }
+        }
+        
+    </script>
+
+</body>
+</html>

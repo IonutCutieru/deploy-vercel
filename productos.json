@@ -1,0 +1,89 @@
+{
+    "perfumes": [
+        {
+            "nombre": "Asad",
+            "precio": 25,
+            "imagen": "images/Asad.png",
+            "genero": "Masculino",
+            "descripcion": "Un perfume especiado y amaderado con notas de vainilla, ámbar y cuero. Perfecto para hombres que buscan una fragancia intensa y sofisticada."
+        },
+        {
+            "nombre": "Yara",
+            "precio": 25,
+            "imagen": "images/Yara.jpg",
+            "genero": "Femenino",
+            "descripcion": "Una fragancia dulce y cremosa con notas de vainilla, caramelo y frutas tropicales. Ideal para mujeres que aman los aromas cálidos y envolventes."
+        },
+        {
+            "nombre": "Zanzibar",
+            "precio": 25,
+            "imagen": "images/Zanzibar.jpeg",
+            "genero": "Unisex",
+            "descripcion": "Un perfume exótico y especiado con toques de canela, cardamomo y maderas orientales. Inspirado en la esencia vibrante de la isla de Zanzíbar."
+        },
+        {
+            "nombre": "Khamrah",
+            "precio": 35,
+            "imagen": "images/Khamrah.jpg",
+            "genero": "Masculino",
+            "descripcion": "Un perfume gourmand y especiado con notas de canela, vainilla y haba tonka. Una fragancia cálida y seductora para el hombre moderno."
+        },
+        {
+            "nombre": "Khamrah Qahwa",
+            "precio": 35,
+            "imagen": "images/KhamrahQahwa.jpg",
+            "genero": "Masculino",
+            "descripcion": "Una variante del clásico Khamrah con un toque de café intenso y notas especiadas. Perfecto para los amantes de los aromas profundos y adictivos."
+        },
+        {
+            "nombre": "Oud for Glory",
+            "precio": 30,
+            "imagen": "images/OudForGlory.jpg",
+            "genero": "Unisex",
+            "descripcion": "Un perfume oriental con una combinación de oud, azafrán y pachulí. Una fragancia poderosa y mística con gran proyección y duración."
+        },
+        {
+            "nombre": "Honor & Glory",
+            "precio": 30,
+            "imagen": "images/HonorAndGlory.jpg",
+            "genero": "Masculino",
+            "descripcion": "Un perfume amaderado y especiado con notas de cuero, ámbar y bergamota. Ideal para hombres con carácter fuerte y presencia imponente."
+        },
+        {
+            "nombre": "His Confession",
+            "precio": 50,
+            "imagen": "images/HisConfession.jpg",
+            "genero": "Masculino",
+            "descripcion": "Una fragancia intensa con notas de incienso, cuero y maderas ahumadas. Perfecta para noches especiales y eventos formales."
+        },
+        {
+            "nombre": "Her Confession",
+            "precio": 50,
+            "imagen": "images/HerConfession.jpg",
+            "genero": "Femenino",
+            "descripcion": "Un perfume floral y avainillado con toques de jazmín, rosa y almizcle. Sofisticado y sensual, ideal para mujeres elegantes."
+        },
+        {
+            "nombre": "Eclaire",
+            "precio": 40,
+            "imagen": "images/Eclaire.jpg",
+            "genero": "Femenino",
+            "descripcion": "Una fragancia luminosa y femenina con notas de vainilla, coco y flores blancas. Suave y encantadora, perfecta para el día a día."
+        },
+        {
+            "nombre": "Club de Nuit Intense",
+            "precio": 40,
+            "imagen": "images/CDNIntense.jpg",
+            "genero": "Masculino",
+            "descripcion": "Un perfume con una apertura cítrica y un fondo ahumado y amaderado. Inspirado en el ADN de fragancias de lujo, con gran proyección y duración."
+        },
+        {
+            "nombre": "Club de Nuit Woman",
+            "precio": 40,
+            "imagen": "images/CDNWoman.jpg",
+            "genero": "Femenino",
+            "descripcion": "Un perfume elegante con toques frutales, florales y un fondo almizclado. Inspirado en fragancias de alta perfumería femenina."
+        }
+    ]
+}
+
